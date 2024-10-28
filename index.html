@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Store</title>
+    <style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+        }
+     header {
+        padding: 10% 5%;
+        text-align: center;
+        color: #fff;
+        font-size: 2rem;
+        background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('MehndiDesignsHandArtDesignsWallpapersFreeDownload7-640x393.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+     }
+     header h1 {
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); 
+     }
+     nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+     }
+     nav a {
+        color: #fff;
+        background-color: #cb9990;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+     }
+     nav a:hover {
+            background-color: #a85b4d;
+            transform: scale(1.1);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+        }
+        nav a:active {
+            transform: scale(1.05);
+            box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+        }
+        section.about {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+        section.about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #a85b4d;
+        }
+        section.about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        section.gallery {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        section.gallery h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #a85b4d;
+        }
+        section.gallery .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        section.gallery .gallery-item {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+        section.gallery .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        section.gallery .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            padding: 30px 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px;
+        }
+        footer .social-links {
+            margin-bottom: 20px;
+        }
+        footer .social-links a {
+            color: #a85b4d;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer .social-links a:hover {
+            color: #ff4500;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+
+          /* Responsive design */
+          @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            section.gallery .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All the Mehndi Designs You Need</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="design.html">All Designs</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">All Services</a>
+        </nav>
+    </header>
+
+   <section class="about">
+    <h2>About Our Mehndi Store</h2>
+    <p>Welcome to the Mehndi Store! We specialize in providing beautiful, intricate mehndi designs for all occasions. Whether you're looking for traditional bridal mehndi, party mehndi, or just want to add a touch of elegance to your hands, we've got you covered. Our talented team of artists ensures that each design is crafted with love and precision.</p>
+   </section>
+
+   <section class="gallery">
+    <h2>Our Beautiful Mehndi Designs</h2>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="bridal-5085024_1280.jpg" alt="Mehndi Design 1">
+        </div>
+        <div class="gallery-item">
+            <img src="bridal-tattoos-5382321_1280.jpg" alt="Mehndi Design 2">
+        </div>
+        <div class="gallery-item">
+            <img src="indian-5072866_1280.jpg" alt="Mehndi Design 3">
+        </div>
+        <div class="gallery-item">
+            <img src="mehndi-design-4359874_1280.jpg" alt="Mehndi Design 4">
+        </div>
+    </div>
+   </section>
+   
+   <footer>
+    <div class="social-links">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+    <p>© 2024 Mehndi Store. All Rights Reserved.</p>
+   </footer>
+</body>
+</html>
